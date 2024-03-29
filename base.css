@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 기본태그 초기화 */
+body {
+    color: #212121;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+/* 자주쓰는 클래스 스타일 */
+.font-14 {
+    font-size: 14px;
+}
+
+.btn-24 {
+    width: 40px;
+    height: 40px;
+}
+.border-50p {
+    border-radius: 50%;
+}
+
+.hover-gray:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
